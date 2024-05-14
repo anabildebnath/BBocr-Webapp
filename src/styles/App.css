@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--fontPrimary);
+  font-family: "Raleway", sans-serif;
+}
+a {
+  text-decoration: none;
+  font-weight: 500;
+}

@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 10;
+  width: 100vw;
+  height: 7vh;
+  border-bottom: 1px solid #e5e5e5;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+.nav li {
+  list-style: none;
+}
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 1.3rem;
+}
+.nav h1,
+a {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(121, 120, 120);
+  white-space: nowrap;
+  height: 100%;
+  cursor: pointer;
+  transition: color 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s;
+}
+.nav a:hover {
+  color: rgb(48, 47, 47);
+}
+.navElement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: inherit;
+  gap: 1rem;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+}
+.brand h1 {
+  font-size: 1.8rem;
+  line-height: 19px;
+  font-weight: 700;
+  color: rgb(48, 48, 48);
+}
+.navElement button {
+  position: relative;
+  display: inline-flex;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  user-select: none;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 7px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  height: 40px;
+  background: rgb(0, 85, 255);
+  color: rgb(255, 255, 255);
+  letter-spacing: .5px;
+}
+.elementBorder{
+  border-right:1px solid #a3a1a1 ;
+  padding-right: 10px;
+  height: 65%;
+  display: flex;
+  align-items: center;
+}
+/* 
+.nav h1,
+a {
+  font-family: "Montserrat", sans-serif;
+}
+.brand h1 {
+  font-size: 3rem;
+  line-height: 19px;
+  font-weight: 500;
+  color: rgb(48, 48, 48);
+}
+.navChild ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.navChild a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6rem;
+  height: 3rem;
+  color: rgb(48, 48, 48);
+  white-space: nowrap;
+}
+.privateNav a {
+  width: 10rem;
+  height: 3rem;
+}
+.sp a {
+  width: 6rem;
+  height: 3rem;
+}
+.activeNavLink {
+  background-color: #2b7180;
+  color: white;
+}
+
+.navChild .activeNavLink {
+  color: white;
+}
+.activeNavLink span {
+  color: white;
+}
+
+.navChild ul li:hover {
+  background-color: #2b7180;
+  transition: background-color 0.5s ease-in-out;
+}
+.navChild ul li:hover a {
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav .brand h3 {
+    display: none;
+  }
+} */
