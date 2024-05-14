@@ -1,5 +1,5 @@
+import Converter from "../component/Converter";
+
 export default function Home() {
-  return (
-      <p>lorem</p>
-  );
+  return <Converter heading="PNG to HTML Converter" />;
 }

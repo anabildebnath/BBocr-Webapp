@@ -1,0 +1,25 @@
+.converter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7rem;
+  gap: 2rem;
+}
+.converterBox {
+    background: rgb(61, 153, 245);
+  width: 80vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+.converterBox2 {
+  background: rgb(61, 153, 245);
+  width: 78.5vw;
+  height: 37vh;
+  border-radius: 4px;
+  border: 1px dashed white;
+}
