@@ -7,7 +7,7 @@
   gap: 2rem;
 }
 .converterBox {
-    background: rgb(61, 153, 245);
+  background: rgb(59, 147, 235);
   width: 80vw;
   height: 40vh;
   display: flex;
@@ -22,4 +22,52 @@
   height: 37vh;
   border-radius: 4px;
   border: 1px dashed white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.converterBox2 svg {
+  width: 1.5rem;
+}
+.customButton1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  user-select: none;
+  overflow: visible;
+  width: 11rem;
+  height: 3.7rem;
+  color: rgb(44, 42, 42);
+  background-color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 10px 18px;
+  position: relative;
+  border-radius: 4px 0px 0px 4px;
+  text-transform: uppercase;
+}
+.customButton2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 3.8rem;
+  height: 3.7rem;
+  padding: 10px 18px;
+  color: rgb(44, 42, 42);
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  border-left: 1px solid rgb(214, 211, 211);
+}
+.buttonText {
+  white-space: nowrap;
 }
