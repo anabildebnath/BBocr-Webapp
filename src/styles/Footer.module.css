@@ -1,0 +1,54 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40vw;
+  height: 15vh;
+}
+.socialLogo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.socialImg {
+  display: flex;
+  align-items: center;
+  gap: 1.7rem;
+}
+.socials ul,
+.info ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  white-space: nowrap;
+  gap: 20px;
+}
+.socials svg {
+  width: 2rem;
+}
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 10px;
+  padding: 5rem;
+  background-color: rgb(244, 244, 244);
+}
+.info svg {
+  width: 1.8rem;
+}
+.info p svg {
+  width: 1rem;
+  margin-inline-start: 1px;
+  margin-inline-end: 1px;
+  fill: red;
+}
+.info ul {
+  gap: 20px;
+}

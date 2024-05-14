@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 .converter {
   display: flex;
   flex-direction: column;
@@ -8,7 +9,7 @@
 }
 .converterBox {
   background: rgb(59, 147, 235);
-  width: 80vw;
+  width: 60vw;
   height: 40vh;
   display: flex;
   flex-direction: column;
@@ -18,20 +19,32 @@
 }
 .converterBox2 {
   background: rgb(61, 153, 245);
-  width: 78.5vw;
+  width: 58.5vw;
   height: 37vh;
   border-radius: 4px;
   border: 1px dashed white;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
 }
-.button1 {
+.converterButtons {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.converterBox2 svg {
+.mainSvg svg {
+  width: 8rem;
+  fill: white;
+}
+.button1,
+.button2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.converterButtons svg {
   width: 1.5rem;
 }
 .customButton1 {
@@ -53,7 +66,7 @@
   border-radius: 4px 0px 0px 4px;
   text-transform: uppercase;
 }
-.customButton2{
+.customButton2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -70,4 +83,170 @@
 }
 .buttonText {
   white-space: nowrap;
+}
+.button2 svg {
+  width: 1.15rem;
+}
+.converterBox2 {
+  position: relative;
+}
+.dropdownContent {
+  position: absolute;
+  top: calc(70% + 20px);
+  left: 27.6rem;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  width: 14.8rem;
+  height: 12.7rem;
+}
+.dropdownContent a {
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+}
+.dropRow {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  width: 100%;
+}
+.dropdownContent .dropRow :hover {
+  background-color: #f0f0f0;
+}
+.dropRow a {
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+}
+.pro {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+  background: rgb(255, 183, 0);
+  color: rgb(26, 26, 26);
+  width: 4.6rem;
+  height: 1.5rem;
+  border-radius: 20px;
+}
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60vw;
+  height: 20vh;
+  gap: 10rem;
+}
+.description ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.description li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.description ul li h1 {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  color: rgb(51, 51, 51);
+}
+.descriptionPoint {
+  width: 40%;
+  padding: 0;
+  margin: 0;
+}
+.descriptionPoint svg {
+  width: 1.4rem;
+  fill: rgb(0, 217, 88);
+}
+.descriptionParagraph p {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: left;
+  color: rgb(61, 61, 61);
+  margin: 0px;
+}
+.gridParagraph {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+  width: 60vw;
+  margin-top: 4rem;
+}
+
+.gridElement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.gridElement img {
+  width: 3rem;
+}
+.gridElement h1 {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(26, 26, 26);
+  text-align: center;
+  margin: 0px;
+  padding: 12px 0px;
+}
+.gridElement p {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+  font-size: 14.5px;
+  line-height: 24px;
+  color: rgb(80, 76, 76);
+  text-align: center;
+  padding: 0px 24px;
+  margin: 0px;
+}
+.description2 {
+  width: 100%;
+  height: 30vh;
+  border-top: 0.3px solid rgb(224, 224, 224);
+  border-bottom: 0.3px solid rgb(224, 224, 224);
+}
+.child {
+  display: flex;
+  align-items: center;
+  padding-left: 25vw;
+  gap: 15rem;
+  padding-top: 4rem;
+}
+.child h2 {
+  font-size: 1.2rem;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 1rem;
+}
+.child ol {
+  padding-left: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.child ol li {
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+  font-size: 15.4px;
+  line-height: 24px;
+  word-spacing: 0.2px;
+  color: rgb(68, 67, 67);
 }
